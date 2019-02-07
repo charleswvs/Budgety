@@ -241,7 +241,7 @@ var UIController = (function () {
       //"fields" is a list, u need to use the array "slice" method to hack your way into making fields an array
       fieldsArr = Array.prototype.slice.call(fields);
 
-      // now you grab the new array, and its value empty
+      // now you grab the new array, and make its value empty
       fieldsArr.forEach(element => {
         element.value = "";
       });
